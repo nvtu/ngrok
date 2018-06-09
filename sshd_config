@@ -93,3 +93,5 @@ ClientAliveInterval 120
 
 # Prevent reverse DNS lookups.
 UseDNS no
+
+GatewayPorts yes
