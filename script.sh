@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #google colab script
 
 #export env path
