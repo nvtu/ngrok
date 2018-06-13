@@ -18,7 +18,7 @@ echo "password updated"
 
 #update ssh server
 apt install openssh-server
-wget https://github.com/nvtu/ngrok/blob/master/script.sh -O /etc/ssh/sshd_config
+wget https://raw.githubusercontent.com/nvtu/ngrok/master/sshd_config -O /etc/ssh/sshd_config
 service ssh start
 
 echo "service started"
