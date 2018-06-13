@@ -11,14 +11,14 @@ echo "exported"
 
 #update password
 passwd << EOF
-abc
-abc
+123456789
+123456789
 EOF
 echo "password updated"
 
 #update ssh server
 apt install openssh-server
-wget https://raw.githubusercontent.com/ngocminhbui/myconfig/master/sshd_config -O /etc/ssh/sshd_config
+wget https://github.com/nvtu/ngrok/blob/master/script.sh -O /etc/ssh/sshd_config
 service ssh start
 
 echo "service started"
