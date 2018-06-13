@@ -17,6 +17,7 @@ EOF
 echo "password updated"
 
 #update ssh server
+apt update
 apt install openssh-server
 wget https://raw.githubusercontent.com/nvtu/ngrok/master/sshd_config -O /etc/ssh/sshd_config
 service ssh start
